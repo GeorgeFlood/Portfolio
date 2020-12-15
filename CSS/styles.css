@@ -1,0 +1,144 @@
+/*---NAV---*/
+nav{
+background-color: #b20000;	
+}
+
+a{
+font-family: 'Langar', cursive;
+color: white;	
+}
+
+/*---TITLE PAGE---*/
+.jumbotron{
+padding-top: 13%;
+padding-left: 2%;
+font-family: 'Roboto', sans-serif;
+height: 100vh;
+background-image: url('../cover.jpg');
+background-position: center;
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: cover;
+font-size: 2em;
+color: white;
+text-shadow: 2px 2px 5px black;
+border-bottom: 4px solid #b20000;
+}	
+
+.pretty{
+color: #FF1493;
+text-shadow: 1px 1px 2px black;	
+}
+
+.jumbotron hr{
+width: 51%;
+height: 3px;
+color:#b20000;	
+}	
+
+.fade{
+opacity: 0;
+transform-origin: 50%, 50%;
+animation: fade 1s ease-in-out .6s forwards;	
+}
+
+.fade-p{
+opacity: 0;
+animation: fade 1.2s ease-in-out 1.3s forwards;	
+}
+/*---- KEY FRAMES -----*/
+@keyframes fade{
+0%{
+opacity: 0; 	
+} 30%{
+opacity: 0.3;
+} 60%{
+opacity: 0.6;
+} 80%{
+opacity: 0.9;
+}100%{
+opacity: 1;	
+ }
+}
+
+@keyframes treehouse{
+0{	
+}30%{
+transform: translateY(5px);	
+} 60%{
+transform: translateY(-6px);	
+} 80%{
+transform: translateY(9px);	
+} 95%{
+transform: translateY(-3px);	
+} 100%{
+transform: translateY(0px);
+}	
+ }
+
+/*-----ABOUT ME-----*/
+.about-me{	
+padding: 6% 3%;
+border-left: 2px solid #89cff0;
+border-right: 2px solid #89cff0;
+
+}
+
+.about-me h4{
+font-family: 'Roboto', sans-serif;
+font-size: 1.9em;
+border-bottom: solid 2px #89cff0;
+width: 50%;
+margin: auto;
+}
+
+
+.about-me svg{
+height: 90px;
+width: 90px;	
+}
+
+.about-me svg:hover{
+animation: treehouse .8s ease-in-out .2s forwards;	
+}
+
+.mail-svg{
+margin-top: 2%;	
+}
+
+
+
+/*--PORTFOLIO---*/
+
+.btn{
+background-color: black;	
+}
+
+.card{
+background-color: rgba(103, 128, 159, .2);
+box-shadow: 2px 2px 10px black;
+border-radius: 10px;
+}
+
+.card:hover{
+transform: scale(1.05);
+}
+
+h2{
+font-family: 'Roboto', sans-serif;
+padding: 5% 0;	
+padding-bottom: 50px;
+border-top: 5px solid #89cff0;
+width: 70%;
+}
+
+.portfolio{
+padding: 0;
+border-top: 4px solid #b20000;
+padding-top: 10px;	
+}
+
+.footer{
+background-color: rgba(46, 49, 49, .5);	
+}
+
