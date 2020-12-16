@@ -118,17 +118,20 @@ transform: rotate(15deg);
 .click-2{
 position: relative;
 right: 10%;
-bottom: 4%;
+bottom: 2%;
 transform: rotate(-15deg);	
 }
 
 /*--PORTFOLIO---*/
-
+.buttons{
+margin-top: 15px;	
+}
 .btn{
 background-color: #52bab3;	
-border: solid 1px black;
+border: none;
 border-radius: 10px;
 opacity: 0.5;
+margin: 0 auto;
 }
 
 .btn:hover{
