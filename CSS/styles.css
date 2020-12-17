@@ -18,7 +18,6 @@ padding-left: 2%;
 height: 100vh;
 background-image: url('../cover.jpg');
 background-position: center;
-background-attachment: fixed;
 background-repeat: no-repeat;
 background-size: cover;
 font-size: 2em;
@@ -123,6 +122,14 @@ transform: rotate(-15deg);
 }
 
 /*--PORTFOLIO---*/
+.portfolio-intro{
+background-image: url('../images/monopoly.png');
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: cover;
+border-bottom: 4px solid #b20000;
+}
+
 .buttons{
 margin-top: 15px;	
 }
@@ -157,14 +164,13 @@ margin: 5% 2%;
 h2{
 font-family: 'Roboto', sans-serif;
 padding: 5% 0;	
-padding-bottom: 50px;
+padding-bottom: 100px;
 border-top: 5px solid #89cff0;
 width: 70%;
 }
 
 .portfolio{
 padding: 0;
-border-top: 4px solid #b20000;
 padding-top: 10px;	
 }
 
