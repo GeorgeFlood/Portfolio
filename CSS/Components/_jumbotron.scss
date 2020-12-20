@@ -1,0 +1,35 @@
+.jumbotron{
+padding-top: 13%;
+padding-left: 2%;
+height: 100vh;
+background-image: url('../cover.jpg');
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+font-size: 2em;
+color: white;
+text-shadow: 2px 2px 5px black;
+border-bottom: 4px solid #b20000;
+}	
+
+.pretty{
+color: #FF1493;
+text-shadow: 1px 1px 2px black;	
+}
+
+.jumbotron hr{
+width: 51%;
+height: 3px;
+color:#b20000;	
+}	
+
+.fade{
+opacity: 0;
+transform-origin: 50%, 50%;
+animation: fade 1s ease-in-out .6s forwards;	
+}
+
+.fade-p{
+opacity: 0;
+animation: fade 1.2s ease-in-out 1.3s forwards;	
+}
