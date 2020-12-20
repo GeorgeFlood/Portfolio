@@ -489,8 +489,5 @@ footer {
 @media (max-width: 768px) {
   .click-2 {
     top: 5px; } }
-@media (min-width: 1024px) {
-  .footer-links {
-    margin-left: 25%; } }
 
 /*# sourceMappingURL=styles.css.map */
