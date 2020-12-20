@@ -1,0 +1,47 @@
+.about-me{	
+padding: 3% 3%;
+border-left: 2px solid #89cff0;
+border-right: 2px solid #89cff0;
+background-image: linear-gradient(white, #dbd9d9, white);
+}
+
+.about-me p{
+ font-size: 1.2rem; 
+ font-weight: 10;
+}
+
+.about-me h4{
+font-family: 'Roboto', sans-serif;
+font-size: 1.9em;
+border-bottom: solid 2px #89cff0;
+width: 50%;
+margin: auto;
+}
+
+
+.about-me svg{
+height: 90px;
+width: 90px;	
+}
+
+.about-me svg:hover{
+animation: treehouse 1s ease-in-out .2s forwards;	
+}
+
+.mail-svg{
+margin-top: 9%;	
+}
+
+
+.click{
+position: relative;
+left: 10%;
+transform: rotate(15deg);	
+}
+
+.click-2{
+position: relative;
+right: 10%;
+bottom: 2%;
+transform: rotate(-15deg);	
+}
