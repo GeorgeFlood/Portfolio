@@ -451,10 +451,6 @@ h2 {
 footer {
   margin-top: 2%;
   background-color: #c2e4d3; }
-  footer .footer-img {
-    margin-bottom: 4%;
-    margin-left: 20%;
-    margin-top: 1%; }
 
 @keyframes fade {
   0% {
@@ -489,5 +485,11 @@ footer {
 @media (max-width: 768px) {
   .click-2 {
     top: 5px; } }
+@media (min-width: 1024px) {
+  .footer-links {
+    margin-left: 20%; }
+
+  .footer-links img {
+    margin-left: 18%; } }
 
 /*# sourceMappingURL=styles.css.map */
