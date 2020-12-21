@@ -490,6 +490,10 @@ footer {
     margin-left: 20%; }
 
   .footer-links img {
-    margin-left: 18%; } }
+    margin-left: 18%; }
+
+  .jumbotron .fade, .fade-p {
+    position: relative;
+    bottom: 70px; } }
 
 /*# sourceMappingURL=styles.css.map */
