@@ -322,6 +322,15 @@ template {
   text-shadow: 2px 2px 5px black;
   border-bottom: 4px solid #b20000; }
 
+span {
+  opacity: 0;
+  transition: all .9s ease; }
+
+.jsfade {
+  opacity: 1;
+  position: relative;
+  bottom: 50px; }
+
 .pretty {
   color: #FF1493;
   text-shadow: 1px 1px 2px black; }
@@ -334,11 +343,11 @@ template {
 .fade {
   opacity: 0;
   transform-origin: 50%, 50%;
-  animation: fade 1s ease-in-out .6s forwards; }
+  animation: fade 1s ease-in-out 1.9s forwards; }
 
 .fade-p {
   opacity: 0;
-  animation: fade 1.2s ease-in-out 1.3s forwards; }
+  animation: fade 1.2s ease-in-out 2.3s forwards; }
 
 nav {
   background-color: #b20000; }
@@ -377,7 +386,7 @@ a:active {
   animation: treehouse 1s ease-in-out .2s forwards; }
 
 .mail-svg {
-  margin-top: 8.2%; }
+  margin-top: 7.9%; }
 
 .click {
   position: relative;
@@ -441,7 +450,7 @@ h2 {
   font-family: 'Roboto', sans-serif;
   padding: 5% 0;
   padding-bottom: 100px;
-  border-top: 5px solid #89cff0;
+  border-top: 5px solid #aecdd2;
   width: 70%; }
 
 .portfolio {
