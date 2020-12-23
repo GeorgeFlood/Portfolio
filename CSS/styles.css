@@ -322,14 +322,15 @@ template {
   text-shadow: 2px 2px 5px black;
   border-bottom: 4px solid #b20000; }
 
-span {
+.headerspan {
   opacity: 0;
   transition: all .9s ease; }
 
 .jsfade {
   opacity: 1;
   position: relative;
-  bottom: 50px; }
+  bottom: 50px;
+  right: 7px; }
 
 .pretty {
   color: #FF1493;
@@ -386,7 +387,7 @@ a:active {
   animation: treehouse 1s ease-in-out .2s forwards; }
 
 .mail-svg {
-  margin-top: 7.9%; }
+  margin-top: 6.5%; }
 
 .click {
   position: relative;
@@ -461,6 +462,25 @@ footer {
   margin-top: 2.3%;
   background-color: #c2e4d3; }
 
+footer svg {
+  height: 50px;
+  width: 50px;
+  margin: 1% 0; }
+
+.footer-linkedin:hover {
+  position: relative;
+  fill: white;
+  transition: .8s;
+  transform-origin: 50% 50%;
+  animation: footerSVG .4s ease-in-out 0.3 forwards; }
+
+.footer-github:hover {
+  position: relative;
+  fill: white;
+  transition: .8s;
+  transform-origin: 50% 50%;
+  animation: footerSVG .4s ease-in-out 0.3 forwards; }
+
 @keyframes fade {
   0% {
     opacity: 0; }
@@ -485,6 +505,17 @@ footer {
     transform: translateY(-3px); }
   100% {
     transform: translateY(0px); } }
+@keyframes footerSVG {
+  20% {
+    left: 5px; }
+  40% {
+    left: 10px; }
+  60% {
+    left: 15px; }
+  80% {
+    left: 20px; }
+  100% {
+    left: 25px; } }
 @media (min-width: 320px) {
   .nav-name {
     display: none; } }

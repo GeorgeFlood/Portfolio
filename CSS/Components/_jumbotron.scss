@@ -12,7 +12,7 @@ text-shadow: 2px 2px 5px black;
 border-bottom: 4px solid #b20000;
 }	
 
-span {
+.headerspan {
 opacity: 0;
 transition: all .9s ease;	
 }
@@ -21,6 +21,7 @@ transition: all .9s ease;
 opacity: 1;
 position: relative;
 bottom: 50px;	
+right: 7px;
 }
 
 .pretty{

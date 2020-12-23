@@ -3,3 +3,26 @@ margin-top: 2.3%;
 background-color: #c2e4d3;
  }
 
+footer svg{
+height: 50px;
+width: 50px;
+margin: 1% 0;
+}
+
+.footer-linkedin:hover{
+position: relative;
+fill: white;
+transition: .8s;
+transform-origin: 50% 50%;
+animation: footerSVG .4s ease-in-out 0.3 forwards;
+}
+
+.footer-github:hover{
+position: relative;
+fill: white;
+transition: .8s;
+transform-origin: 50% 50%;
+animation: footerSVG .4s ease-in-out 0.3 forwards;
+}
+
+

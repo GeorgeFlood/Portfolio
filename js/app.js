@@ -3,7 +3,7 @@ const stringtext = text.textContent;
 const splitText = stringtext.split('');
 text.textContent = '';
 for(let i = 0; i < splitText.length; i++){
-	text.innerHTML += '<span>' + splitText[i] + '</span>';
+	text.innerHTML += `<span class = 'headerspan'>` + splitText[i] + '</span>';
 }
 
 let char = 0;
