@@ -523,10 +523,7 @@ footer svg {
     display: block; } }
 @media (min-width: 768px) {
   .click-2 {
-    top: 5px; }
-
-  .jsfade {
-    bottom: 50px; } }
+    top: 5px; } }
 @media (min-width: 1024px) {
   .footer-links {
     margin-left: 20%; }
@@ -536,6 +533,9 @@ footer svg {
 
   .jumbotron .fade, .fade-p {
     position: relative;
-    bottom: 70px; } }
+    bottom: 70px; }
+
+  .jsfade {
+    bottom: 45px; } }
 
 /*# sourceMappingURL=styles.css.map */

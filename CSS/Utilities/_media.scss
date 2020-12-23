@@ -14,9 +14,6 @@
 .click-2{
 top: 5px;
  } 
- .jsfade{
- bottom: 50px;
- }
 }
 
 @media (min-width: 1024px){
@@ -26,9 +23,12 @@ margin-left: 20%;
 .footer-links img{
 margin-left: 18%;
  }
- .jumbotron .fade, .fade-p{
+.jumbotron .fade, .fade-p{
 position: relative;
 bottom: 70px;
+ }
+ .jsfade{
+ bottom: 45px;
  }
 }
 
