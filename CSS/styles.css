@@ -317,7 +317,7 @@ template {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  font-size: 2em;
+  font-size: 2.3em;
   color: white;
   text-shadow: 2px 2px 5px black;
   border-bottom: 4px solid #b20000; }
@@ -402,12 +402,15 @@ a:active {
 .portfolio-intro {
   background-image: url("../images/monopoly.png");
   background-attachment: fixed;
+  color: white;
   background-repeat: no-repeat;
   background-size: cover;
-  border-bottom: 4px solid #b20000; }
+  border-bottom: 4px solid #b20000;
+  text-shadow: 1px 1px 3px #1c64ff, 2px 2px 5px #1c64ff, 4px 4px 7px #1c64ff; }
 
 .introspan {
-  color: #b20000;
+  color: #1c64ff;
+  text-shadow: 1px 1px 1px white, 2px 2px 5px white, 4px 4px 7px white;
   border-bottom: 2px solid #89cff0; }
 
 .helloworld {
