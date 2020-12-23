@@ -329,7 +329,6 @@ template {
 .jsfade {
   opacity: 1;
   position: relative;
-  bottom: 50px;
   right: 7px; }
 
 .pretty {
@@ -522,9 +521,12 @@ footer svg {
 @media (min-width: 411px) {
   .nav-name {
     display: block; } }
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   .click-2 {
-    top: 5px; } }
+    top: 5px; }
+
+  .jsfade {
+    bottom: 50px; } }
 @media (min-width: 1024px) {
   .footer-links {
     margin-left: 20%; }

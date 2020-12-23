@@ -7,13 +7,16 @@
 @media (min-width: 411px) {
   .nav-name {
     display: block; 
- } 
+ }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
 .click-2{
 top: 5px;
  } 
+ .jsfade{
+ bottom: 50px;
+ }
 }
 
 @media (min-width: 1024px){
