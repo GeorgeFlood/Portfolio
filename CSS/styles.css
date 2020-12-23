@@ -521,9 +521,9 @@ footer svg {
 @media (min-width: 411px) {
   .nav-name {
     display: block; } }
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .click-2 {
-    top: 5px; } }
+    top: 4px; } }
 @media (min-width: 1024px) {
   .footer-links {
     margin-left: 20%; }
