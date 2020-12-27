@@ -322,6 +322,11 @@ template {
   text-shadow: 2px 2px 5px black;
   border-bottom: 4px solid #b20000; }
 
+h1 {
+  font-family: Lobster, sans-serif;
+  font-size: 2.5em;
+  text-shadow: 3px 3px 10px #b20000; }
+
 .headerspan {
   opacity: 0;
   transition: all .9s ease; }
@@ -365,15 +370,16 @@ a:active {
   padding: 3% 3%;
   border-left: 2px solid #89cff0;
   border-right: 2px solid #89cff0;
-  background-image: linear-gradient(#ffffff, #dbd9d9, #ffffff); }
+  background-image: linear-gradient(to bottom, #fff 0%, #fdcbf1 50%, #fff 100%); }
 
 .about-me p {
   font-size: 1.2rem;
   font-weight: 10; }
 
 .about-me h4 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Lobster', sans-serif;
   font-size: 1.9em;
+  text-shadow: 2px 2px 5px #89cff0;
   border-bottom: solid 2px #89cff0;
   width: 50%;
   margin: auto; }
@@ -411,11 +417,12 @@ a:active {
 .introspan {
   color: #1c64ff;
   text-shadow: 1px 1px 1px white, 2px 2px 5px white, 4px 4px 7px white;
-  border-bottom: 2px solid white; }
+  border-bottom: .5px solid white; }
 
 .helloworld {
   font-size: 2.5rem;
   color: black;
+  font-family: roboto;
   text-shadow: 5px 5px 15px #89cff0; }
 
 .buttons {
@@ -444,16 +451,23 @@ a:active {
 
 .card:hover {
   transform: scale(1.1);
-  transition: all .3s ease-in-out;
-  transition-duration: .5s;
+  transition: all .4s ease-in-out;
   margin: 5% 2%;
   box-shadow: -3px -3px 10px black; }
 
+.card h5 {
+  font-family: 'lobster', sans-serif;
+  text-align: center;
+  color: red;
+  font-size: 1.5em;
+  text-shadow: 2px 2px 8px #89cff0; }
+
 h2 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'lobster', sans-serif;
+  font-size: 2.8em;
   padding: 5% 0;
-  padding-bottom: 100px;
-  border-top: 5px solid #aecdd2;
+  padding-bottom: 1em;
+  border-top: 5px solid #b20000;
   width: 70%; }
 
 .portfolio {
@@ -461,8 +475,8 @@ h2 {
   padding-top: 10px; }
 
 footer {
-  margin-top: 2.3%;
-  background-color: #c2e4d3; }
+  margin-top: 2.5%;
+  border-top: 3px solid #b20000; }
 
 footer svg {
   height: 50px;
