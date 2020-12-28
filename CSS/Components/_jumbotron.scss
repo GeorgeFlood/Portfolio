@@ -14,8 +14,11 @@ border-bottom: 4px solid #b20000;
 
 h1{
 font-family: Lobster, sans-serif;
-font-size: 2.5em;
-text-shadow: 3px 3px 10px #b20000;	
+text-shadow: 1px 1px 2px purple,
+2px 2px 4px purple,
+3px 3px 6px purple,
+4px 4px 8px purple,
+5px 5px 10px purple;
 }
 
 .headerspan {
@@ -37,7 +40,7 @@ text-shadow: 1px 1px 2px black;
 .jumbotron hr{
 width: 51%;
 height: 3px;
-color:#b20000;	
+color: #89cff0;	
 }	
 
 .fade{
